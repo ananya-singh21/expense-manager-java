@@ -28,11 +28,12 @@ This project demonstrates backend development, MVC architecture, database intera
 - Maven
 - HTML / CSS
 - H2 / MySQL (configurable)
-
+---
 
 ## 📁 Project Structure
 
-📦 expense-manager-java
+```text
+expense-manager-java
 ├── src
 │   ├── main
 │   │   ├── java
@@ -56,6 +57,7 @@ This project demonstrates backend development, MVC architecture, database intera
 ├── .gitignore
 ├── LICENSE
 └── README.md
+
 
 
 ## ▶️ How to Run Locally
