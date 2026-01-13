@@ -26,103 +26,105 @@ Click the **Fork** button on GitHub to create your own copy of the repository.
 
 ---
 
-### 2️⃣ Clone Your Fork
+## 2️⃣ Clone Your Fork
+
 ```bash
 git clone https://github.com/<your-username>/expense-manager-java.git
 cd expense-manager-java
+```
 
-### 3️⃣ Create a New Branch
+## 3️⃣ Create a New Branch
 
 Always create a new branch for your changes:
 
+```bash
 git checkout -b feature/your-feature-name
+```
+
+**Examples:**
+- `feature/add-expense-category`
+- `bugfix/login-validation`
+- `docs/update-readme`
 
 
-Examples:
+## 4️⃣ Make Your Changes
 
-feature/add-expense-category
+- Follow clean code practices
+- Maintain MVC structure
+- Write meaningful commit messages
+- Add comments where necessary
 
-bugfix/login-validation
+---
 
-docs/update-readme
-
-4️⃣ Make Your Changes
-
-Follow clean code practices
-
-Maintain MVC structure
-
-Write meaningful commit messages
-
-Add comments where necessary
-
-5️⃣ Test Your Changes
+## 5️⃣ Test Your Changes
 
 Make sure the project builds and runs correctly:
 
+```bash
 ./mvnw test
 ./mvnw spring-boot:run
+```
 
-6️⃣ Commit Your Changes
+### 6️⃣ Commit Your Changes
+```bash
 git add .
 git commit -m "Add: short description of your change"
+```
 
-7️⃣ Push to Your Fork
+### 7️⃣ Push to Your Fork
+```bash
 git push origin feature/your-feature-name
+```
 
-8️⃣ Create a Pull Request
+## 8️⃣ Create a Pull Request
 
-Go to the original repository
+- Go to the original repository
+- Click **New Pull Request**
+- Clearly describe:
+  - What you changed
+  - Why you changed it
+  - Any screenshots (if UI-related)
 
-Click New Pull Request
+## ✅ Contribution Guidelines
 
-Clearly describe:
+- Keep PRs focused and small
+- Use descriptive commit messages
+- Follow existing project structure
+- Do not commit unnecessary files
+- Ensure code is properly formatted
 
-What you changed
+---
 
-Why you changed it
-
-Any screenshots (if UI-related)
-
-✅ Contribution Guidelines
-
-Keep PRs focused and small
-
-Use descriptive commit messages
-
-Follow existing project structure
-
-Do not commit unnecessary files
-
-Ensure code is properly formatted
-
-🐞 Reporting Issues
+## 🐞 Reporting Issues
 
 If you find a bug or have a suggestion:
 
-Open an Issue
+- Open an **Issue**
+- Provide clear steps to reproduce
+- Include screenshots or logs if possible
 
-Provide clear steps to reproduce
+---
 
-Include screenshots or logs if possible
-
-🌱 Beginner-Friendly Contributions
+## 🌱 Beginner-Friendly Contributions
 
 Good places to start:
 
-Documentation improvements
+- Documentation improvements
+- UI enhancements
+- Refactoring code
+- Adding validations
+- Writing tests
 
-UI enhancements
+---
 
-Refactoring code
+## 📜 Code of Conduct
 
-Adding validations
-
-Writing tests
-
-📜 Code of Conduct
-
-By contributing, you agree to follow respectful and inclusive behavior.
+By contributing, you agree to follow respectful and inclusive behavior.  
 Harassment, discrimination, or inappropriate behavior will not be tolerated.
 
-❤️ Thank You
+---
+
+## ❤️ Thank You
+
+Thank you for contributing!  
+Your efforts help improve this project and make it better for everyone 🚀
