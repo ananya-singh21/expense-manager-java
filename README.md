@@ -58,7 +58,7 @@ expense-manager-java
 ├── LICENSE
 └── README.md
 
-
+```
 
 ## ▶️ How to Run Locally
 
