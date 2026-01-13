@@ -29,7 +29,7 @@ This project demonstrates backend development, MVC architecture, database intera
 - HTML / CSS
 - H2 / MySQL (configurable)
 
----
+
 ## 📁 Project Structure
 
 📦 expense-manager-java
