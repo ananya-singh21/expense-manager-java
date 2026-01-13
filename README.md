@@ -30,25 +30,33 @@ This project demonstrates backend development, MVC architecture, database intera
 - H2 / MySQL (configurable)
 
 ---
+## 📁 Project Structure
+
 expense-manager-java/
 ├── src/
-│ ├── main/
-│ │ ├── java/com/ananya/expense_tracker/
-│ │ │ ├── controller/
-│ │ │ ├── service/
-│ │ │ ├── repository/
-│ │ │ ├── entity/
-│ │ │ └── ExpenseTrackerApplication.java
-│ │ └── resources/
-│ │ ├── templates/
-│ │ ├── static/
-│ │ └── application.properties
-│ └── test/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── ananya/
+│   │   │           └── expense_tracker/
+│   │   │               ├── controller/
+│   │   │               ├── service/
+│   │   │               ├── repository/
+│   │   │               ├── entity/
+│   │   │               └── ExpenseTrackerApplication.java
+│   │   └── resources/
+│   │       ├── templates/
+│   │       ├── static/
+│   │       └── application.properties
+│   └── test/
+│       └── java/
 ├── pom.xml
-├── mvnw / mvnw.cmd
+├── mvnw
+├── mvnw.cmd
 ├── .gitignore
 ├── LICENSE
 └── README.md
+
 
 
 ---
