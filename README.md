@@ -32,24 +32,24 @@ This project demonstrates backend development, MVC architecture, database intera
 ---
 ## 📁 Project Structure
 
-expense-manager-java/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── ananya/
-│   │   │           └── expense_tracker/
-│   │   │               ├── controller/
-│   │   │               ├── service/
-│   │   │               ├── repository/
-│   │   │               ├── entity/
+📦 expense-manager-java
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── com
+│   │   │       └── ananya
+│   │   │           └── expense_tracker
+│   │   │               ├── controller
+│   │   │               ├── service
+│   │   │               ├── repository
+│   │   │               ├── entity
 │   │   │               └── ExpenseTrackerApplication.java
-│   │   └── resources/
-│   │       ├── templates/
-│   │       ├── static/
+│   │   └── resources
+│   │       ├── templates
+│   │       ├── static
 │   │       └── application.properties
-│   └── test/
-│       └── java/
+│   └── test
+│       └── java
 ├── pom.xml
 ├── mvnw
 ├── mvnw.cmd
@@ -57,9 +57,6 @@ expense-manager-java/
 ├── LICENSE
 └── README.md
 
-
-
----
 
 ## ▶️ How to Run Locally
 
@@ -73,66 +70,71 @@ expense-manager-java/
 git clone https://github.com/ananya-singh21/expense-manager-java.git
 cd expense-manager-java
 ./mvnw spring-boot:run
+```
 
-For Windows
+**For Windows:**
+```bash
 mvnw.cmd spring-boot:run
+```
 
 Open in browser:
+```
 http://localhost:8080
-⚙️ Configuration
+```
+
+---
+
+## ⚙️ Configuration
 
 Application configuration can be modified in:
 
+```
 src/main/resources/application.properties
+```
 
-🧪 Testing
+---
+
+## 🧪 Testing
 
 Run tests using:
 
+```bash
 ./mvnw test
-
-🌱 Future Enhancements
-
-REST API support
-
-Role-based authentication
-
-Expense analytics & charts
-
-Export expenses (CSV / PDF)
-
-Docker support
-
-Frontend migration to React
+```
 
 
-🤝 Open Source & GSoC Readiness
+## 🌱 Future Enhancements
+
+- REST API support
+- Role-based authentication
+- Expense analytics & charts
+- Export expenses (CSV / PDF)
+- Docker support
+- Frontend migration to React
+
+## 🤝 Open Source & GSoC Readiness
 
 This project follows:
 
-Clean repository structure
+- Clean repository structure
+- Proper commit history
+- Open-source license
+- Readable and maintainable code
 
-Proper commit history
+### Suitable for:
+- Open-source contributions
+- Internship portfolios
+- Google Summer of Code (GSoC) preparation
 
-Open-source license
 
-Readable and maintainable code
-
-It is suitable for:
-
-Open-source contributions
-
-Internship portfolios
-
-Google Summer of Code (GSoC) preparation
-
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License.
 See the LICENSE file for details.
 
-👩‍💻 Author
+## 👩‍💻 Author
 
-Ananya Singh
+**Ananya Singh**  
 GitHub: https://github.com/ananya-singh21
+
 
