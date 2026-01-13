@@ -1,3 +1,11 @@
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17+-orange?style=flat-square&logo=java"/>
+  <img src="https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen?style=flat-square&logo=springboot"/>
+  <img src="https://img.shields.io/badge/Maven-Build-blue?style=flat-square&logo=apachemaven"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Build-Passing-success?style=flat-square"/>
+</p>
+
 # 💸 Expense Manager (Java Spring Boot)
 
 A full-stack **Expense Manager web application** built using **Java Spring Boot** that allows users to track income, expenses, and manage their financial records through a clean web interface.
