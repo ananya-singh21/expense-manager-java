@@ -79,12 +79,11 @@ cd expense-manager-java
 mvnw.cmd spring-boot:run
 ```
 
-Open in browser:
-```
+Open in browser:  
 http://localhost:8080
-```
 
----
+
+
 
 ## ⚙️ Configuration
 
